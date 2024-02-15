@@ -9,9 +9,10 @@ if ssh is not None:
     ssh.set_missing_host_key_policy(paramiko.AutoAddPolicy())
 
     remote_host = "pavilion"
+    user = "paul"
 
     try:
-        ssh.connect(remote_host, username='paul')
+        ssh.connect(remote_host, username=user)
         stdin, stdout, stderr = ssh.exec_command('ls')
         print(stdout.read().decode())
     except:
