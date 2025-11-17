@@ -1,6 +1,6 @@
 import os.path
 
-# online docs: https://docs.python.org/3/library/os.path.html 
+# online docs: https://docs.python.org/3/library/os.path.html
 
 file_path = "/etc/resolv.conf"
 

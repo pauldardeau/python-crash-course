@@ -8,7 +8,7 @@ def run_command(command):
                        stdout=subprocess.PIPE,
                        stderr=subprocess.PIPE)
     exit_code = p.returncode
-    stdout = p.stdout.decode("utf-8") 
+    stdout = p.stdout.decode("utf-8")
     stderr = p.stderr.decode("utf-8")
     return exit_code, stdout, stderr
 

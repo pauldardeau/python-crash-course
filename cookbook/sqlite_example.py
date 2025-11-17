@@ -22,7 +22,7 @@ if conn is not None:
              "name text PRIMARY KEY NOT NULL," + \
              "year integer NOT NULL," + \
              "genre text NOT NULL" + \
-          ");" 
+          ");"
     cur.execute(sql)
     cur.close()
 

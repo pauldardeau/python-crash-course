@@ -5,7 +5,7 @@ def divide_by_zero(dividend):
 
 def read_non_existent_file():
     with open("/abc/def/ghi/jkl/mno.pqr", "r") as f:  # raises IOError
-        f.read() 
+        f.read()
 
 
 def access_non_existing_element():

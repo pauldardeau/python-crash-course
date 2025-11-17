@@ -4,7 +4,7 @@
 
 def bad_func():
 	# let's try to call a module function that we haven't imported
-    
+
     # the following statement crashes due to error:
     # NameError: global name 'json' is not defined
     json_obj = json.loads("['a', 'b', 'c']")

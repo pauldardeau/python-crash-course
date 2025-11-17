@@ -31,7 +31,7 @@ class PrimeNumberAnalyzer(threading.Thread):
                             j += 2
                     else:
                         evaluating = False
-                            
+
 
 
 num_thread_workers = 3
